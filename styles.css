@@ -1,0 +1,655 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bitter', serif;
+  overflow-x: hidden;
+}
+
+/*Navbar Area*/
+
+.navbar {
+  padding: 0 10rem;
+  border-bottom: 1px solid #001233;
+  background-color: white;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #001233;
+}
+
+.navbar .navbar-brand span {
+  font-style: italic;
+  color: #0353a4;
+}
+
+.navbar .navbar-nav .nav-item a {
+  color: #0353a4;
+  font-weight: 700;
+  padding: 0 2rem;
+  font-size: 1.1rem;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color: #001233;
+}
+
+.navbar-nav > .active a {
+  color: #001233;
+}
+
+/*Banner Area*/
+
+.site-banner {
+  background: url(./images/myname.png) no-repeat 10% 43%;
+  position: relative;
+}
+
+.site-banner .banner-text {
+  padding-top: 25%;
+}
+
+.site-banner .banner-text .banner-title {
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.site-banner .banner-text h1 {
+  padding: 2rem 0;
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+
+.site-banner .banner-text h1 span {
+  font-style: italic;
+}
+
+.site-banner .banner-text h4 {
+  padding: 0.5rem 0;
+}
+
+.site-banner .banner-buttons {
+  padding: 1rem 0;
+}
+
+.site-banner .banner-buttons button {
+  margin: 0 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+  padding: 0.5rem 2rem;
+  font-size: 1.1;
+}
+
+.site-banner .banner-buttons .btn1 {
+  background-color: #0353a4;
+  color: whitesmoke;
+}
+
+.site-banner .banner-buttons .btn1:hover {
+  background-color: whitesmoke;
+  border: 1px solid #0353a4;
+  color: #0353a4;
+}
+
+.site-banner .banner-buttons .btn2 {
+  background-color: whitesmoke;
+  color: #0353a4;
+  border: 1px solid #0353a4;
+}
+
+.site-banner .banner-buttons .btn2:hover {
+  background-color: #0353a4;
+  color: whitesmoke;
+}
+
+.site-banner .banner-image {
+  padding: 15% 8%;
+}
+
+.site-banner .banner-big-bubble {
+  background-color: #0353a4;
+  width: 60rem;
+  height: 60rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 7%;
+  left: 70%;
+}
+
+.site-banner .banner-medium-bubble {
+  background-color: #0353a4;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 85%;
+  left: 65%;
+}
+
+.site-banner .banner-small-bubble {
+  background-color: #0353a4;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 80%;
+  left: 60%;
+}
+
+/*AboutMe Area*/
+
+.aboutme-area {
+  padding: 12rem 0;
+  position: relative;
+}
+
+.aboutme-area img {
+  padding: 0 10rem;
+}
+
+.aboutme-area h3 {
+  font-style: italic;
+  font-size: 2rem;
+  padding-top: 10rem;
+}
+
+.aboutme-area h2 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  padding: 1rem 0;
+}
+
+.aboutme-area .para {
+  letter-spacing: 2px;
+  padding-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.about-big-bubble {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  background-color: #0353a4;
+  border-radius: 50%;
+  z-index: -1;
+  top: 68%;
+  left: 85%;
+}
+
+.about-medium-bubble {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #0353a4;
+  border-radius: 50%;
+  z-index: -1;
+  top: 75%;
+  left: 49%;
+}
+
+.about-small-bubble {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #0353a4;
+  border-radius: 50%;
+  z-index: -1;
+  top: 72%;
+  left: 45%;
+}
+
+/*Carousel Area*/
+
+.element {
+  background: #ffffff10;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  margin: 3rem 0rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.owl-carousel .owl-item {
+  padding: 0 1.5rem;
+}
+
+.owl-carousel {
+  padding: 0 2rem;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span {
+  background: #0353a4;
+  width: 12px;
+  height: 12px;
+}
+
+/*ContactMe Area*/
+
+.contactme-area {
+  background-color: #0353a4;
+  color: whitesmoke;
+  margin-top: 6rem;
+  padding: 12rem 0;
+  position: relative;
+}
+
+.contactme-area h2 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  padding: 2rem 0;
+}
+
+.form-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.contactme-area .form .inputBox input {
+  background-color: #0466c8;
+  width: 100%;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 0.7rem 1rem;
+  border: 1px solid #0353a4;
+  outline: none;
+}
+
+.contactme-area .form .inputBox input:hover {
+  border: 1px solid whitesmoke;
+  outline: none;
+}
+
+.contactme-area .form .inputBox input:focus {
+  outline: none;
+}
+
+.contactme-area .form .inputBox select {
+  width: 100%;
+  background-color: #0466c8;
+  outline: none;
+  border: 1px solid #0353a4;
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+  color: whitesmoke;
+}
+
+.form-label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  cursor: text;
+  color: whitesmoke;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputBox input:focus + label,
+.inputBox input:valid + label {
+  top: -2px;
+  font-size: 15px;
+  left: 3px;
+  color: whitesmoke;
+}
+
+.label-control {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  cursor: text;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.inputBox input:focus + label,
+.inputBox input:valid + label {
+  top: -1.4rem;
+  font-size: 15px;
+  left: 3px;
+  color: whitesmoke;
+}
+
+.inputBox button {
+  margin: 2rem 0;
+  padding: 0.7rem 2rem;
+  width: 100%;
+  border: 1px solid #0466c8;
+  color: whitesmoke;
+}
+
+.inputBox button:hover {
+  background-color: #0466c8;
+  border: 1px solid #0466c8;
+  color: whitesmoke;
+}
+
+input[type='checkbox'] {
+  margin-right: 0.5rem;
+}
+
+.agree .terms {
+  color: whitesmoke;
+}
+
+.agree .terms:hover {
+  color: #001233;
+}
+
+.contact-big-bubble {
+  background-color: #0466c8;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 65%;
+  left: 5%;
+}
+
+.contact-small-bubble {
+  background-color: #0466c8;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 85%;
+  left: 13%;
+}
+
+/*Passions-Area*/
+
+.passions-area {
+  padding: 6rem 0;
+  background-color: #fbfbfb;
+}
+
+.card {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card:hover {
+  filter: brightness(0.98);
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.passion-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.passion-cards .card-img-top {
+  height: 14rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.passion-cards a {
+  margin: 1rem 0;
+  color: #0353a4;
+  border: 1px solid #0353a4;
+}
+
+.passion-cards a:hover {
+  background-color: #0353a4;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
+
+/*Studies Area*/
+
+.studies-area {
+  margin: 5rem 0;
+}
+
+.studies-area .carousel-img {
+  height: 25rem;
+}
+
+.studies-area-show {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-item h2 button {
+  display: block;
+}
+
+.accordion-item p {
+  font-style: italic;
+}
+
+.accordion-item h2 button span {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-180deg);
+  transition: all 0.3s ease;
+}
+
+.accordion-item h2 button.collapsed {
+  color: whitesmoke;
+  background-color: #0353a4;
+}
+
+.accordion-item h2 button.collapsed span {
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.accordion-button:not(.collapsed) {
+  color: whitesmoke;
+  background-color: #0353a4;
+  border: none;
+}
+
+/*Footer Area*/
+
+.footer-area {
+  background-color: #0353a4;
+}
+
+.footer-area .social {
+  color: whitesmoke;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
+.footer-area p {
+  color: whitesmoke;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.footer-area a {
+  color: whitesmoke;
+}
+
+.footer-area a:hover,
+.footer-area i:hover {
+  color: #001233;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 2rem;
+    margin: 0 0;
+  }
+  .navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  .site-banner .banner-big-bubble,
+  .site-banner .banner-medium-bubble,
+  .site-banner .banner-small-bubble {
+    display: none;
+  }
+  .site-banner .banner-img {
+    display: none;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .aboutme-area {
+    padding-top: 3rem;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-big-bubble {
+    display: none;
+  }
+
+  .about-medium-bubble {
+    top: 87%;
+    left: 50%;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .about-small-bubble {
+    width: 1rem;
+    height: 1rem;
+    top: 87%;
+    left: 46%;
+  }
+  .knowledge .element {
+    height: 14rem;
+  }
+  .about-element p {
+    display: none;
+  }
+  .form-area {
+    text-align: center;
+  }
+  .form-area p {
+    padding-bottom: 1rem;
+  }
+  .contact-big-bubble,
+  .contact-small-bubble {
+    display: none;
+  }
+  .passions-area .card {
+    margin: 0 2rem;
+    height: 18rem;
+  }
+  .passions-area .card p {
+    display: none;
+  }
+  .studies-area {
+    padding-top: 2rem;
+  }
+  .studies-area .carousel {
+    padding-bottom: 4rem;
+  }
+  .footer-area .social {
+    color: whitesmoke;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 10rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .site-banner {
+    background: #fff;
+  }
+  .site-banner .banner-text .banner-title {
+    font-size: 1.5rem;
+  }
+  .site-banner .banner-text h1 {
+    font-size: 3rem;
+  }
+  .aboutme-area {
+    padding-top: 3rem;
+  }
+  .aboutme-area .about-image {
+    margin: 0;
+    padding: 0 3rem;
+  }
+  .about-text h3 {
+    font-size: 1.6rem;
+  }
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+  .about-text .para {
+    font-size: 1rem;
+  }
+  .about-medium-bubble {
+    top: 89%;
+    left: 47%;
+    height: 3rem;
+    width: 3rem;
+  }
+  .contactme-area {
+    padding: 5rem 0;
+  }
+  .form-area h2 {
+    font-size: 1.6rem;
+  }
+  .passions-area h2 {
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+  .passion-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .passions-area {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .passions-area .card {
+    margin-bottom: 3rem;
+    padding-bottom: 21rem;
+  }
+
+  .passions-area .card img {
+    height: 12rem;
+  }
+  .studies-area {
+    margin-top: 2rem;
+    padding-top: 2rem;
+  }
+  .studies-area .carousel-img {
+    height: 16rem;
+  }
+  .footer-area .social {
+    padding: 2rem 1rem;
+  }
+  .footer-area p {
+    font-size: 0.8rem;
+  }
+}
